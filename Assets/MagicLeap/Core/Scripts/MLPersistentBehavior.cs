@@ -121,7 +121,6 @@ namespace UnityEngine.XR.MagicLeap
                 enabled = false;
                 return;
             }
-
             result = MLPersistentCoordinateFrames.Start();
             if (!result.IsOk)
             {
